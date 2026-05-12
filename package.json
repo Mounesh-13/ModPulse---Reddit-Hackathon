@@ -1,0 +1,30 @@
+{
+  "name": "modpulse13",
+  "version": "0.0.0",
+  "description": "AI-powered Reddit moderator daily digest generator.",
+  "main": "src/main.tsx",
+  "scripts": {
+    "dev": "devvit play",
+    "deploy": "devvit deploy",
+    "lint": "eslint src",
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "type": "module",
+  "dependencies": {
+    "@devvit/public-api": "0.12.23"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.59.2",
+    "@typescript-eslint/parser": "^8.59.2",
+    "eslint": "^10.3.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.2",
+    "vitest": "^4.1.6"
+  },
+  "private": true
+}
